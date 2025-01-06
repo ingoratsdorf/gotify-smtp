@@ -1,4 +1,4 @@
-module github.com/tystuyfzand/gotify-smtp
+module github.com/ingoratsdorf/gotify-smtp
 
 go 1.16
 
