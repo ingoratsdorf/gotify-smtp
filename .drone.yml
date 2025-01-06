@@ -20,7 +20,7 @@ steps:
       - ls build
       - cp build/*.so /build
   - name: publish
-    image: tystuyfzand/drone-github-release
+    image: ingoratsdorf/drone-github-release
     volumes:
       - name: build
         path: /build
